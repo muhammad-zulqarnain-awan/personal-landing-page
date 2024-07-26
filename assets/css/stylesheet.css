@@ -44,6 +44,7 @@
     align-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 .box {
@@ -53,6 +54,10 @@
     align-items: center;
 }
 
+.box img {
+    width: 25vw;
+}
+
 .title {
     font-size: 1.1rem;
     padding-top: 2rem;
@@ -60,4 +65,21 @@
 
 .comm-name {
     text-align: center;
+}
+
+.edu-sec h1 {
+    font-size: 1.5rem;
+}
+
+.edu-sec h2 {
+    font-size: 1.3rem;
+}
+
+.edu-sec h3 {
+    font-size: 1.1rem;
+}
+
+.edu-sec li {
+    font-size: 1.2rem;
+    padding: 0.3rem;
 }
